@@ -8,7 +8,7 @@ mathjax: true
 author: LpZ
 ---
 
-##上传代码到github库
+## 上传代码到github库
 1. 在github上创建仓库
 2. 在文件夹执行(执行后，本地仓库会多一个.git文件，则说明本地仓库创建成功)
     ```
@@ -41,7 +41,7 @@ author: LpZ
     $ git pull
     ```
 
-##提交代码到github
+## 提交代码到github
 1. 添加文件到本地仓库（带.后缀名）
     ```
     $ git add fileName
@@ -57,7 +57,7 @@ author: LpZ
     $ git push -u origin master
     ```
 
-##其他指令
+## 其他指令
     ```
     $ git status //查看文档状态
     $ git config --global core.autocrlf false // 解决windows系统下换行符为CRLF
