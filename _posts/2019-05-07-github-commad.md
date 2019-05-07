@@ -12,15 +12,15 @@ author: LpZ
 
 ## 上传代码到github库
 1. 在github上创建仓库
-2. 在文件夹执行(执行后，本地仓库会多一个.git文件，则说明本地仓库创建成功)
+2. 在文件夹执行以下指令(执行后，本地仓库会多一个.git文件，则说明本地仓库创建成功)
     ```
     $ git init
     ```
-3. (初始上传配置github)设置SSH KEY,并执行以下命令检测是否成功
+3. (初始上传配置github)设置SSH KEY,并执行以下指令检测是否成功
     ```
     $ ssh -T git@github.com
     ```
-4. 设置username 和 email
+4. (初始上传)设置username 和 email
     ```
     $ git config --global user.name"your name"
     $ git config --global user.email"your_email@yourRepo.git"
@@ -63,4 +63,5 @@ author: LpZ
     ```
     $ git status //查看文档状态
     $ git config --global core.autocrlf false // 解决windows系统下换行符为CRLF
+    $ git clone git@github.com:yourName/yourRepo.git // clone别人的项目
     ```
