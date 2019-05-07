@@ -8,6 +8,9 @@ mathjax: true
 author: LpZ
 ---
 
+* content
+{:toc}
+
 ## 上传代码到github库
 1. 在github上创建仓库
 2. 在文件夹执行(执行后，本地仓库会多一个.git文件，则说明本地仓库创建成功)
