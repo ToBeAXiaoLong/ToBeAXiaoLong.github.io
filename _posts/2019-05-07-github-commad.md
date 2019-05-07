@@ -4,15 +4,10 @@ title:  "github指令"
 date:   2019-05-07 18:14:54
 categories: github
 tags: github
+excerpt: 记录一些github指令，以方便日常使用
 mathjax: true
 author: LpZ
 ---
-
-* content
-{:toc}
-
-记录一些github指令，以方便日常使用
-
 
 
 ## 上传代码到github库
