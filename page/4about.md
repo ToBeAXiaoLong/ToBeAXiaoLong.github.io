@@ -31,10 +31,8 @@ type: page
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
+* GitHub：[XiaoLong](https://github.com/ToBeAXiaoLong)
 * email：zlp201409@163.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
 
 
 ## 关于本站
