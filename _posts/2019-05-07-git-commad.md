@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "git指令"
+title:  "Git指令"
 date:   2019-05-07 18:14:54
 categories: Git
 tags: github
