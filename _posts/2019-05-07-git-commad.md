@@ -2,7 +2,7 @@
 layout: post
 title:  "git指令"
 date:   2019-05-07 18:14:54
-categories: git
+categories: Git
 tags: github
 excerpt: 记录一些git指令，以方便日常使用
 author: LpZ
