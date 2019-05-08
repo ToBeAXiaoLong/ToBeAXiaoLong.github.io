@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "github指令"
+title:  "git指令"
 date:   2019-05-07 18:14:54
-categories: github
+categories: git
 tags: github
-excerpt: 记录一些github指令，以方便日常使用
-mathjax: true
+excerpt: 记录一些git指令，以方便日常使用
 author: LpZ
 ---
 
@@ -60,7 +59,7 @@ author: LpZ
     ```
 
 ## 其他指令
-
+    其他git指令记录：
     ```
     $ git status // 查看文档状态
     $ git config --global core.autocrlf false // 解决windows系统下换行符为CRLF
