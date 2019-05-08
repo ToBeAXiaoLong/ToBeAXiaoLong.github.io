@@ -60,6 +60,7 @@ author: LpZ
     ```
 
 ## 其他指令
+
     ```
     $ git status //查看文档状态
     $ git config --global core.autocrlf false // 解决windows系统下换行符为CRLF
