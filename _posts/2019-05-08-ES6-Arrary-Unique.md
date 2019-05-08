@@ -8,6 +8,9 @@ excerpt: 记录一些数组去重的方法：set结构
 author: LpZ
 ---
 
+* content
+{:toc}
+
 ## ES6-Set数据结构去重
 使用数据结构Set,去除数组中重复元素。
 ```
