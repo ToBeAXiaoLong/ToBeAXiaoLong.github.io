@@ -20,23 +20,23 @@ display: inline-block;
 ```
 (2)使用弹性模型
 ```
-// 父元素
+/* 父元素 */
 display: flex;
-// 子元素
+/* 子元素 */
 margin: auto;
 ```
 或者
 ```
-// 父元素
+/* 父元素 */
 display：flex;
 align-items: center;
 justify-content:center;
 ```
 (3)使用transform移位
 ```
-// 父元素
+/* 父元素 */
 position: relative;
-// 子元素
+/* 子元素 */
 position: absolute;
 left: 50%;
 top: 50%;
