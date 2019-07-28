@@ -8,6 +8,8 @@ excerpt: 本文将从浏览器的渲染过程开始详细讲解回流和重绘�
 author: LpZ
 ---
 
+* content
+{:toc}
 
 ## 浏览器的渲染过程
 （渲染过程来自MDN）
