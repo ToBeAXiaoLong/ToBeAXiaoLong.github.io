@@ -4,7 +4,7 @@ title:  "回流和重绘"
 date:   2019-05-08 11:51:54
 categories: HTML CSS
 tags: 回流 重绘
-excerpt: 本文将从浏览器的渲染过程开始详细讲解回流和重绘。(ps: 内容为学习摘录笔记)
+excerpt: 本文将从浏览器的渲染过程开始详细讲解回流和重绘
 author: LpZ
 ---
 
