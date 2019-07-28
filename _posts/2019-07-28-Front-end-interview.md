@@ -8,15 +8,14 @@ excerpt: 前端面试题合集
 author: LpZ
 ---
 
-## 前端面试题
 ### 1、如何对元素进行居中（垂直水平）？
 答：(1)使用单元格
     ```
-    // 父元素
+    /* 父元素 */
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    // 子元素
+    /* 子元素 */
     display: inline-block;
     ```
     (2)使用弹性模型
@@ -44,4 +43,4 @@ author: LpZ
     transform: translate(-50%, -50%);
     ```
 
-2. 如果想在上传整个项目代码的同时，又能预览系统。
+2. 
