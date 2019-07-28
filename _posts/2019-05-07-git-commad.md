@@ -41,7 +41,7 @@ author: LpZ
     ```
 8. 从github拉取文件
     ```
-    $ git pull
+    $ git pull origin master
     ```
 
 ## 提交代码到github
