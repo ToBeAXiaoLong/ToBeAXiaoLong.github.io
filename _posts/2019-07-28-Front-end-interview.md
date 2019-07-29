@@ -12,7 +12,8 @@ author: LpZ
 {:toc}
 
 ## 如何对元素进行居中（垂直水平）？
-答：(1)使用单元格
+答：
+- 使用单元格
 ```
 /* 父元素 */
 display: table-cell;
@@ -21,7 +22,7 @@ vertical-align: middle;
 /* 子元素 */
 display: inline-block;
 ```
-(2)使用弹性模型
+- 使用弹性模型
 ```
 /* 父元素 */
 display: flex;
@@ -35,7 +36,7 @@ display：flex;
 align-items: center;
 justify-content:center;
 ```
-(3)使用transform移位
+- 使用transform移位
 ```
 /* 父元素 */
 position: relative;
@@ -87,9 +88,10 @@ Module: 当状态管理多了，使用Module来划分多模块管理。
 - 生成DOM树，解析css和js，渲染页面，直至显示完成。
 
 ## 了解路由传参吗？怎么实现的？
-答：（1）通过在Router设置中使用命名参数定义路由信息，在组件内容使用（$route.param.参数名）的方式获取。  
-（2）通过props解耦，在路由中设置props:true，路由的参数内容自动映射到子组件对应属性上。  
-（3）原生js获取路由信息。（不推荐）
+答：
+- 通过在Router设置中使用命名参数定义路由信息，在组件内容使用（$route.param.参数名）的方式获取。  
+- 通过props解耦，在路由中设置props:true，路由的参数内容自动映射到子组件对应属性上。  
+- 原生js获取路由信息。（不推荐）
 
 ## 有使用过Promise吗？用来干什么的？
 答：Promise用于异常处理的一个代理对象，有三种状态：
