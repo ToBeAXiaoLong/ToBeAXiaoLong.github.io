@@ -12,8 +12,8 @@ author: LpZ
 {:toc}
 
 ## 如何对元素进行居中（垂直水平）？
-答：
-- 使用单元格
+答：3种方式如下：
+1. 使用单元格
 ```
 /* 父元素 */
 display: table-cell;
@@ -22,7 +22,7 @@ vertical-align: middle;
 /* 子元素 */
 display: inline-block;
 ```
-- 使用弹性模型
+2. 使用弹性模型
 ```
 /* 父元素 */
 display: flex;
@@ -36,7 +36,7 @@ display：flex;
 align-items: center;
 justify-content:center;
 ```
-- 使用transform移位
+3. 使用transform移位
 ```
 /* 父元素 */
 position: relative;
@@ -119,9 +119,9 @@ Module: 当状态管理多了，使用Module来划分多模块管理。
 
 ## js实现继承的方式有哪些？
 答：
-- 在js中可以使用原型链prototype实现继承（缺点：会改变继承的对象的内容）
-- 遍历对象的内容，进行值拷贝（使用克隆来实现继承）
-- 在prototype可以使用extends实现继承，和java的实现方式相同。
+1. 在js中可以使用原型链prototype实现继承（缺点：会改变继承的对象的内容）
+2. 遍历对象的内容，进行值拷贝（使用克隆来实现继承）
+3. 在prototype可以使用extends实现继承，和java的实现方式相同。
 
 ## webpack有使用过吗？
 答：webpack是打包工具（分包、压缩、编译），根据项目的依赖关系打包一个或多个文件（打包成js、css、资源文件图片）。打包工具可以引入插件来增强功能，在vue.js项目会有babel编译器还有js和css压缩工具这些。
@@ -137,7 +137,7 @@ Module: 当状态管理多了，使用Module来划分多模块管理。
 
 ## 前端跨域的方式有哪些？
 答：因同源策略的限制，不同站点之间不能直接访问。（前后端分离后会出现这个问题）
-- 可以在后端设置Acess-Control-Allow-Credentials=true;'Access-Control-Allow-Origin'='可访问的地址'这是简单的方式。
-- 可以在webpack配置开发服务器上代理接口信息，缺点就是在开发有用，上线后就不行了。
+1. 可以在后端设置Acess-Control-Allow-Credentials=true;'Access-Control-Allow-Origin'='可访问的地址'这是简单的方式。
+2. 可以在webpack配置开发服务器上代理接口信息，缺点就是在开发有用，上线后就不行了。
 
 ## 
