@@ -157,6 +157,16 @@ Module: 当状态管理多了，使用Module来划分多模块管理。
 1. 可以在后端设置Acess-Control-Allow-Credentials=true;'Access-Control-Allow-Origin'='可访问的地址'这是简单的方式。
 2. 可以在webpack配置开发服务器上代理接口信息，缺点就是在开发有用，上线后就不行了。
 
+## 清除字符串前后的空格(兼容所有浏览器)
+答：
+```js
+function trim(str) {
+    if (str & typeof === "string") {
+        return str.replace(/(^S*)|(S*)$/g,"");
+    }
+}
+```
+
 ## 输入N个字符串，进行分类abc和acb为一类(随意两两对换位置，与之一致)，输出分类个数？
 
 ## 实现大整数相加？
