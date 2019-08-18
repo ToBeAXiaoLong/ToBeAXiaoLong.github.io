@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "参考-提升用户体验的前端动画"
-categories: JavaScript
+categories: js
 tags: 动画 手势
 author: LpZ
 ---

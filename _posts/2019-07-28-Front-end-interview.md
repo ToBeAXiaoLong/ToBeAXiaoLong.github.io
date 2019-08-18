@@ -159,10 +159,11 @@ Module: 当状态管理多了，使用Module来划分多模块管理。
 
 ## 清除字符串前后的空格(兼容所有浏览器)
 答：
+方法一：
 ```js
 function trim(str) {
     if (str & typeof === "string") {
-        return str.replace(/(^S*)|(S*)$/g,"");
+        return str.replace(/^(\s*)|(\s*)$/g,"");
     }
 }
 ```

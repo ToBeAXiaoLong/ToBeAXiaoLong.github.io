@@ -2,7 +2,7 @@
 layout: post
 title:  "数组去重"
 date:   2019-05-08 10:51:54
-categories: JavaScript
+categories: js
 tags: 数组去重
 excerpt: 记录一些数组去重的方法：set结构
 author: LpZ
